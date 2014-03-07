@@ -1,0 +1,21 @@
+{
+  "manifest_version" : 2,
+  "name": "Joe's Fetcher",
+  "version": "0.1",
+
+  "description": "The latest from TechCrunch.",
+  "icons": { "16" : "images/icon.png",
+      "48" : "images/48.png",
+      "128" : "images/128.png"},
+  "homepage_url": "http://techcrunch.com/",
+  "background": {
+    "page" : "background.html" },
+  "permissions": [
+    "http://feeds.feedburner.com/*"
+  ],
+  "browser_action": {
+    "default_icon": "images/icon.png", 
+    "default_title": "TechCrunch Notifier",      
+    "default_popup": "popup.html"       
+  }
+}
